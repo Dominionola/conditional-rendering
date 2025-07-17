@@ -3,7 +3,7 @@ import React from "react";
 export default function App() {
   const [unreadMessages, setUnreadMessages] = React.useState([]);
 
-  const [messages, setMessages] = React.useState(["a", "b"]);
+  const [messages, setMessages] = React.useState(["a", "b", "("]);
   /**
    * Challenge:
    * - If there are no unread messages, display "You're all caught up!"
